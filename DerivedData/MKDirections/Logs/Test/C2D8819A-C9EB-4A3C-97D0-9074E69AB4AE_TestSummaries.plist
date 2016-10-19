@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i7</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2300</integer>
+			<key>Identifier</key>
+			<string>3BE0518F-F5EB-500A-AC3B-B8923DB04921</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>8</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro9,1</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-15-unibody</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.11.6</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.11.6 (15G31)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>OS X</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>8192</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone 6s</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>1A36853C-7B02-4CFD-8EB9-A733F5F980DA</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone8,1</string>
+			<key>ModelName</key>
+			<string>iPhone 6s</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-6s-b9b7ba</string>
+			<key>Name</key>
+			<string>iPhone 6s</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>9.3</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>9.3 (13E230)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator9.3</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 9.3</string>
+			<key>OperatingSystemVersion</key>
+			<string>9.3</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>ProjectPath</key>
+			<string>MKDirections.xcodeproj</string>
+			<key>TargetName</key>
+			<string>MKDirectionsTests</string>
+			<key>TestName</key>
+			<string>MKDirectionsTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>FailureSummaries</key>
+									<array>
+										<dict>
+											<key>FileName</key>
+											<string>/Users/amol/Downloads/MKDirections-2/MKDirectionsTests/MKDirectionsTests.m</string>
+											<key>LineNumber</key>
+											<integer>31</integer>
+											<key>Message</key>
+											<string>failed - No implementation for "-[MKDirectionsTests testExample]"</string>
+											<key>PerformanceFailure</key>
+											<false/>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>MKDirectionsTests/testExample</string>
+									<key>TestName</key>
+									<string>testExample</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummary</string>
+									<key>TestStatus</key>
+									<string>Failure</string>
+									<key>TestSummaryGUID</key>
+									<string>960CF394-B6D1-4E2C-8FED-33FD196E95F6</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>MKDirectionsTests</string>
+							<key>TestName</key>
+							<string>MKDirectionsTests</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>Selected tests</string>
+					<key>TestName</key>
+					<string>Selected tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3CAAD0941D9D70120017C399 /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAAD0931D9D70120017C399 /* MapPin.m */; };
 		C988B45F180D799500ECFD6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C988B45E180D799500ECFD6F /* Foundation.framework */; };
 		C988B461180D799500ECFD6F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C988B460180D799500ECFD6F /* CoreGraphics.framework */; };
 		C988B463180D799500ECFD6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C988B462180D799500ECFD6F /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		C988B480180D799500ECFD6F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C988B462180D799500ECFD6F /* UIKit.framework */; };
 		C988B488180D799500ECFD6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C988B486180D799500ECFD6F /* InfoPlist.strings */; };
 		C988B48A180D799500ECFD6F /* MKDirectionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C988B489180D799500ECFD6F /* MKDirectionsTests.m */; };
+		C988B494180D799F00ECFD6F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C988B493180D799F00ECFD6F /* MapKit.framework */; };
+		C988B496180D79A400ECFD6F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C988B495180D79A400ECFD6F /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3CAAD0921D9D70120017C399 /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		3CAAD0931D9D70120017C399 /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		C988B45B180D799500ECFD6F /* MKDirections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKDirections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C988B45E180D799500ECFD6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C988B460180D799500ECFD6F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,8 @@
 		C988B485180D799500ECFD6F /* MKDirectionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKDirectionsTests-Info.plist"; sourceTree = "<group>"; };
 		C988B487180D799500ECFD6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C988B489180D799500ECFD6F /* MKDirectionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKDirectionsTests.m; sourceTree = "<group>"; };
+		C988B493180D799F00ECFD6F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C988B495180D79A400ECFD6F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C988B496180D79A400ECFD6F /* CoreLocation.framework in Frameworks */,
+				C988B494180D799F00ECFD6F /* MapKit.framework in Frameworks */,
 				C988B461180D799500ECFD6F /* CoreGraphics.framework in Frameworks */,
 				C988B463180D799500ECFD6F /* UIKit.framework in Frameworks */,
 				C988B45F180D799500ECFD6F /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		C988B45D180D799500ECFD6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C988B495180D79A400ECFD6F /* CoreLocation.framework */,
+				C988B493180D799F00ECFD6F /* MapKit.framework */,
 				C988B45E180D799500ECFD6F /* Foundation.framework */,
 				C988B460180D799500ECFD6F /* CoreGraphics.framework */,
 				C988B462180D799500ECFD6F /* UIKit.framework */,
@@ -117,6 +128,8 @@
 				C988B470180D799500ECFD6F /* Main.storyboard */,
 				C988B473180D799500ECFD6F /* ViewController.h */,
 				C988B474180D799500ECFD6F /* ViewController.m */,
+				3CAAD0921D9D70120017C399 /* MapPin.h */,
+				3CAAD0931D9D70120017C399 /* MapPin.m */,
 				C988B476180D799500ECFD6F /* Images.xcassets */,
 				C988B465180D799500ECFD6F /* Supporting Files */,
 			);
@@ -196,7 +209,7 @@
 		C988B453180D799500ECFD6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Mobient;
 				TargetAttributes = {
 					C988B47B180D799500ECFD6F = {
@@ -249,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CAAD0941D9D70120017C399 /* MapPin.m in Sources */,
 				C988B475180D799500ECFD6F /* ViewController.m in Sources */,
 				C988B46F180D799500ECFD6F /* AppDelegate.m in Sources */,
 				C988B46B180D799500ECFD6F /* main.m in Sources */,
@@ -305,7 +319,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -320,6 +333,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -344,7 +358,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -381,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKDirections/MKDirections-Prefix.pch";
 				INFOPLIST_FILE = "MKDirections/MKDirections-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devfright.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKDirections/MKDirections-Prefix.pch";
 				INFOPLIST_FILE = "MKDirections/MKDirections-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devfright.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,7 +417,6 @@
 		C988B491180D799500ECFD6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKDirections.app/MKDirections";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -416,6 +430,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MKDirectionsTests/MKDirectionsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devfright.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -425,7 +440,6 @@
 		C988B492180D799500ECFD6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKDirections.app/MKDirections";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -435,6 +449,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MKDirections/MKDirections-Prefix.pch";
 				INFOPLIST_FILE = "MKDirectionsTests/MKDirectionsTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.devfright.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -460,6 +475,7 @@
 				C988B48F180D799500ECFD6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C988B490180D799500ECFD6F /* Build configuration list for PBXNativeTarget "MKDirectionsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +484,7 @@
 				C988B492180D799500ECFD6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

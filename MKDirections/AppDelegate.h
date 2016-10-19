@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  MKDirections
 //
-//  Created by M Newill on 15/10/2013.
-//  Copyright (c) 2013 Mobient. All rights reserved.
+//  Created by Amol Mavuduru on 15/10/2013.
+//  Copyright (c) Amols. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

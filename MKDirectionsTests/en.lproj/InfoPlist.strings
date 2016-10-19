@@ -1,2 +1,2 @@
 /* Localized versions of Info.plist keys */
-
+"NSLocationWhenInUseUsageDescription" = "This app needs your location.";
